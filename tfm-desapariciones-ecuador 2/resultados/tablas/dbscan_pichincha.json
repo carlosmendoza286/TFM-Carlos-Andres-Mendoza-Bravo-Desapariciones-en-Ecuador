@@ -1,0 +1,28 @@
+{
+ "PICHINCHA": {
+  "casos": 18503,
+  "coords": 10881,
+  "zonas": 65,
+  "pct_en": 72.3,
+  "mayor": 32.1,
+  "severas": 0,
+  "cronicas": 42,
+  "zonas_ent": 71,
+  "cobertura": 68.5,
+  "tasa17": 2.0,
+  "tasa25": 7.5
+ },
+ "GUAYAS": {
+  "casos": 17655,
+  "coords": 12819,
+  "zonas": 64,
+  "pct_en": 71.3,
+  "mayor": 15.8,
+  "severas": 4,
+  "cronicas": 37,
+  "zonas_ent": 46,
+  "cobertura": 62.6,
+  "tasa17": 1.9,
+  "tasa25": 26.5
+ }
+}

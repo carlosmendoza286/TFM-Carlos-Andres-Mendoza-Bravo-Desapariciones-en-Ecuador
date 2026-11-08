@@ -1,0 +1,14 @@
+{
+ "top_prov_pct": 47.7,
+ "logrank_region": {
+  "chi2": 1405.2,
+  "p": 2.230460045233384e-304
+ },
+ "cox_multi_n": 75290,
+ "cox_multi_cindex": 0.566,
+ "dist_n": 6748,
+ "dist_validos_pct": 9.2,
+ "zonas_canton_gye": 40,
+ "casos_zona_gye_pct": 80.1,
+ "distritos_zonas": 20
+}

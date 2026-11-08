@@ -1,0 +1,407 @@
+{
+  "n_registros": 75749,
+  "fecha_corte": "2026-08-12",
+  "n_analitico": 75748,
+  "n_censurados": 2530,
+  "km": {
+    "original": {
+      "modelo": "Alternativa (fallecidos censurados; corte 31-dic-2025)",
+      "n": 75748,
+      "eventos": 70615,
+      "censurados": 5133,
+      "mediana": 7.0,
+      "mediana_IC95": "[7; 8]",
+      "S(7)": 0.4967,
+      "S(30)": 0.2431,
+      "S(365)": 0.0837
+    },
+    "corregida": {
+      "modelo": "Principal (evento = cierre; corte 12-ago-2026)",
+      "n": 75748,
+      "eventos": 73218,
+      "censurados": 2530,
+      "mediana": 7.0,
+      "mediana_IC95": "[7; 7]",
+      "S(7)": 0.4795,
+      "S(30)": 0.2174,
+      "S(365)": 0.0548
+    }
+  },
+  "cif": {
+    "Localizado con vida": {
+      "7d": 0.4866,
+      "30d": 0.7542,
+      "365d": 0.9121
+    },
+    "Localizado fallecido": {
+      "7d": 0.0167,
+      "30d": 0.0261,
+      "365d": 0.0331
+    }
+  },
+  "km_origen_denuncia": {
+    "modelo": "Origen = fecha de denuncia",
+    "n": 75710,
+    "eventos": 73180,
+    "censurados": 2530,
+    "mediana": 4.0,
+    "mediana_IC95": "[4; 4]",
+    "S(7)": 0.3693,
+    "S(30)": 0.175,
+    "S(365)": 0.0502
+  },
+  "tendencia_anual": [
+    {
+      "anio": 2017,
+      "n": 10479,
+      "mediana": 6.0,
+      "S(30)": 0.189,
+      "pct_fallecido": 1.7,
+      "pct_sigue_desaparecido": 0.8
+    },
+    {
+      "anio": 2018,
+      "n": 10274,
+      "mediana": 6.0,
+      "S(30)": 0.169,
+      "pct_fallecido": 1.8,
+      "pct_sigue_desaparecido": 0.9
+    },
+    {
+      "anio": 2019,
+      "n": 9981,
+      "mediana": 5.0,
+      "S(30)": 0.181,
+      "pct_fallecido": 1.9,
+      "pct_sigue_desaparecido": 0.9
+    },
+    {
+      "anio": 2020,
+      "n": 6776,
+      "mediana": 5.0,
+      "S(30)": 0.172,
+      "pct_fallecido": 2.5,
+      "pct_sigue_desaparecido": 1.9
+    },
+    {
+      "anio": 2021,
+      "n": 7981,
+      "mediana": 7.0,
+      "S(30)": 0.187,
+      "pct_fallecido": 2.8,
+      "pct_sigue_desaparecido": 2.0
+    },
+    {
+      "anio": 2022,
+      "n": 7759,
+      "mediana": 8.0,
+      "S(30)": 0.236,
+      "pct_fallecido": 4.1,
+      "pct_sigue_desaparecido": 3.5
+    },
+    {
+      "anio": 2023,
+      "n": 7862,
+      "mediana": 10.0,
+      "S(30)": 0.285,
+      "pct_fallecido": 5.8,
+      "pct_sigue_desaparecido": 5.4
+    },
+    {
+      "anio": 2024,
+      "n": 7107,
+      "mediana": 10.0,
+      "S(30)": 0.296,
+      "pct_fallecido": 6.2,
+      "pct_sigue_desaparecido": 7.1
+    },
+    {
+      "anio": 2025,
+      "n": 7529,
+      "mediana": 9.0,
+      "S(30)": 0.281,
+      "pct_fallecido": 5.9,
+      "pct_sigue_desaparecido": 10.2
+    }
+  ],
+  "cox_sexo": {
+    "crudo": [
+      1.191,
+      1.173,
+      1.209
+    ],
+    "ajustado_edad": [
+      1.075,
+      1.057,
+      1.093
+    ],
+    "ajustado_edad_estrat_anio": [
+      1.044,
+      1.026,
+      1.061
+    ]
+  },
+  "cox_edad_estrat_anio": [
+    {
+      "covariate": "mujer",
+      "exp(coef)": 1.044,
+      "exp(coef) lower 95%": 1.026,
+      "exp(coef) upper 95%": 1.061,
+      "p": 0.0
+    },
+    {
+      "covariate": "NIÑOS(AS)",
+      "exp(coef)": 0.845,
+      "exp(coef) lower 95%": 0.819,
+      "exp(coef) upper 95%": 0.872,
+      "p": 0.0
+    },
+    {
+      "covariate": "ADULTO",
+      "exp(coef)": 0.762,
+      "exp(coef) lower 95%": 0.749,
+      "exp(coef) upper 95%": 0.775,
+      "p": 0.0
+    },
+    {
+      "covariate": "ADULTO MAYOR",
+      "exp(coef)": 0.887,
+      "exp(coef) lower 95%": 0.852,
+      "exp(coef) upper 95%": 0.923,
+      "p": 0.0
+    }
+  ],
+  "dbscan_original_1.5_15": {
+    "MinPts": 15.0,
+    "eps_km": 1.5,
+    "clusters": 40.0,
+    "pct_en_cluster": 95.6,
+    "pct_cluster_mayor": 69.1,
+    "silueta": 0.183
+  },
+  "dbscan_final": {
+    "eps_km": 0.35,
+    "minpts": 30,
+    "zonas": 64,
+    "pct_en_zonas": 71.3,
+    "pct_ruido": 28.7,
+    "pct_zona_mayor": 15.8
+  },
+  "zonas": {
+    "total": 64,
+    "severas": 4,
+    "cronicas": 37,
+    "severas_detalle": [
+      {
+        "zona": 44,
+        "casos": 55,
+        "adversos": 17,
+        "tasa": 0.3091,
+        "esperada": 0.1112,
+        "razon_vs_esperada": 2.7804,
+        "p_BH": 0.0026,
+        "anios_activos": 7
+      },
+      {
+        "zona": 36,
+        "casos": 348,
+        "adversos": 57,
+        "tasa": 0.1638,
+        "esperada": 0.0977,
+        "razon_vs_esperada": 1.6772,
+        "p_BH": 0.0026,
+        "anios_activos": 9
+      },
+      {
+        "zona": 46,
+        "casos": 50,
+        "adversos": 15,
+        "tasa": 0.3,
+        "esperada": 0.1124,
+        "razon_vs_esperada": 2.67,
+        "p_BH": 0.0058,
+        "anios_activos": 7
+      },
+      {
+        "zona": 24,
+        "casos": 149,
+        "adversos": 23,
+        "tasa": 0.1544,
+        "esperada": 0.0792,
+        "razon_vs_esperada": 1.9484,
+        "p_BH": 0.0253,
+        "anios_activos": 9
+      }
+    ]
+  },
+  "validacion_temporal_zonas": {
+    "zonas_entrenamiento": 46,
+    "cobertura_pct": 62.6,
+    "resultados": [
+      {
+        "criterio": "Severas en 2017-2022 (FDR<0,05)",
+        "zonas": 0,
+        "n_prueba": 0,
+        "observados": null,
+        "esperados": null,
+        "razon": null,
+        "p": null
+      },
+      {
+        "criterio": "Nominal p<0,05 en 2017-2022 (exploratorio)",
+        "zonas": 1,
+        "n_prueba": 40,
+        "observados": 13.0,
+        "esperados": 8.9,
+        "razon": 1.45,
+        "p": 0.0920617466464825
+      }
+    ]
+  },
+  "apriori": {
+    "n_reglas": 48,
+    "top": [
+      {
+        "ant": "edad=ADULTO & etnia=AFRO & sexo=HOMBRE",
+        "con": "SALE=FALLECIDO",
+        "n_ant": 645,
+        "confidence": 0.152,
+        "lift": 4.421
+      },
+      {
+        "ant": "edad=ADULTO & etnia=AFRO & region=COSTA",
+        "con": "SALE=FALLECIDO",
+        "n_ant": 603,
+        "confidence": 0.141,
+        "lift": 4.102
+      },
+      {
+        "ant": "etnia=AFRO & region=COSTA & sexo=HOMBRE",
+        "con": "SALE=FALLECIDO",
+        "n_ant": 687,
+        "confidence": 0.14,
+        "lift": 4.066
+      },
+      {
+        "ant": "edad=ADULTO & nac=EXTRANJERA & sexo=HOMBRE",
+        "con": "SALE=RESOLUCION>30d",
+        "n_ant": 706,
+        "confidence": 0.5,
+        "lift": 2.3
+      },
+      {
+        "ant": "edad=ADULTO & nac=EXTRANJERA",
+        "con": "SALE=RESOLUCION>30d",
+        "n_ant": 1162,
+        "confidence": 0.448,
+        "lift": 2.058
+      },
+      {
+        "ant": "edad=ADULTO & etnia=AFRO",
+        "con": "SALE=RESOLUCION>30d",
+        "n_ant": 885,
+        "confidence": 0.432,
+        "lift": 1.985
+      },
+      {
+        "ant": "edad=ADULTO & etnia=AFRO & region=COSTA",
+        "con": "SALE=SIGUE_DESAPARECIDO",
+        "n_ant": 603,
+        "confidence": 0.227,
+        "lift": 6.802
+      },
+      {
+        "ant": "edad=ADULTO & etnia=AFRO & sexo=HOMBRE",
+        "con": "SALE=SIGUE_DESAPARECIDO",
+        "n_ant": 645,
+        "confidence": 0.226,
+        "lift": 6.777
+      },
+      {
+        "ant": "etnia=AFRO & region=COSTA & sexo=HOMBRE",
+        "con": "SALE=SIGUE_DESAPARECIDO",
+        "n_ant": 687,
+        "confidence": 0.211,
+        "lift": 6.319
+      }
+    ]
+  },
+  "apriori_validacion": {
+    "n": 26,
+    "pct_lift_gt_1_5": 84.6,
+    "pct_lift_gt_1": 96.2
+  },
+  "apriori_validacion_por_consecuente": [
+    {
+      "con": "SALE=FALLECIDO",
+      "reglas": 5,
+      "lift_mediano_prueba": 2.32,
+      "prop_lift>1,5": 1.0
+    },
+    {
+      "con": "SALE=RESOLUCION>30d",
+      "reglas": 6,
+      "lift_mediano_prueba": 1.76,
+      "prop_lift>1,5": 0.67
+    },
+    {
+      "con": "SALE=SIGUE_DESAPARECIDO",
+      "reglas": 15,
+      "lift_mediano_prueba": 2.51,
+      "prop_lift>1,5": 0.87
+    }
+  ],
+  "cox_integrado": [
+    {
+      "covariate": "en_zona_densa",
+      "exp(coef)": 1.091,
+      "exp(coef) lower 95%": 1.025,
+      "exp(coef) upper 95%": 1.162,
+      "p": 0.006
+    },
+    {
+      "covariate": "perfil_riesgo",
+      "exp(coef)": 0.701,
+      "exp(coef) lower 95%": 0.613,
+      "exp(coef) upper 95%": 0.803,
+      "p": 0.0
+    },
+    {
+      "covariate": "mujer",
+      "exp(coef)": 1.233,
+      "exp(coef) lower 95%": 1.148,
+      "exp(coef) upper 95%": 1.324,
+      "p": 0.0
+    },
+    {
+      "covariate": "NIÑOS(AS)",
+      "exp(coef)": 0.933,
+      "exp(coef) lower 95%": 0.808,
+      "exp(coef) upper 95%": 1.076,
+      "p": 0.339
+    },
+    {
+      "covariate": "ADULTO",
+      "exp(coef)": 0.878,
+      "exp(coef) lower 95%": 0.815,
+      "exp(coef) upper 95%": 0.945,
+      "p": 0.001
+    },
+    {
+      "covariate": "ADULTO MAYOR",
+      "exp(coef)": 1.056,
+      "exp(coef) lower 95%": 0.911,
+      "exp(coef) upper 95%": 1.225,
+      "p": 0.467
+    }
+  ],
+  "perfiles_riesgo": [
+    "edad=ADULTO & etnia=AFRO",
+    "edad=ADULTO & nac=EXTRANJERA",
+    "edad=ADULTO & nac=EXTRANJERA & sexo=HOMBRE",
+    "etnia=AFRO",
+    "etnia=AFRO & sexo=HOMBRE",
+    "nac=EXTRANJERA",
+    "nac=EXTRANJERA & sexo=HOMBRE"
+  ]
+}

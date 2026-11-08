@@ -1,0 +1,9 @@
+pandas<3
+numpy
+matplotlib
+scipy
+openpyxl
+lifelines
+scikit-learn
+mlxtend
+statsmodels

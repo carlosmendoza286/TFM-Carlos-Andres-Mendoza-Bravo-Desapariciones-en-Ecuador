@@ -1,0 +1,7 @@
+covariate,exp(coef),exp(coef) lower 95%,exp(coef) upper 95%,p
+en_zona_densa,1.091,1.025,1.162,0.006
+perfil_riesgo,0.701,0.613,0.803,0.0
+mujer,1.233,1.148,1.324,0.0
+NIÑOS(AS),0.933,0.808,1.076,0.339
+ADULTO,0.878,0.815,0.945,0.001
+ADULTO MAYOR,1.056,0.911,1.225,0.467
